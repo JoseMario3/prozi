@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4801B3C42B696BFE00D62337 /* CardProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4801B3C32B696BFE00D62337 /* CardProtocolViewController.swift */; };
+		4801B3C62B696E5900D62337 /* HomebaseProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4801B3C52B696E5900D62337 /* HomebaseProtocolViewController.swift */; };
+		4801B3C82B6AC7C700D62337 /* FadeOutTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4801B3C72B6AC7C700D62337 /* FadeOutTitleView.swift */; };
+		481781232B8549F3004AD7D8 /* DutyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481781222B8549F3004AD7D8 /* DutyViewController.swift */; };
 		482F783F2B670D62003C1E35 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F783E2B670D62003C1E35 /* TitleViewController.swift */; };
 		482F78412B672474003C1E35 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F78402B672474003C1E35 /* HomepageViewController.swift */; };
 		482F78432B67847F003C1E35 /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F78422B67847F003C1E35 /* DirectoryViewController.swift */; };
@@ -19,9 +23,14 @@
 		48681FF02B6575740016960E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48681FEE2B6575740016960E /* LaunchScreen.storyboard */; };
 		48681FF82B6576860016960E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48681FF72B6576860016960E /* CircleView.swift */; };
 		48DB7F502B6897F0001D9851 /* LockoutTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB7F4F2B6897F0001D9851 /* LockoutTypeViewController.swift */; };
+		48EEF4D12B6B60E500DF4C11 /* HorizontalSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EEF4D02B6B60E500DF4C11 /* HorizontalSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4801B3C32B696BFE00D62337 /* CardProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProtocolViewController.swift; sourceTree = "<group>"; };
+		4801B3C52B696E5900D62337 /* HomebaseProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebaseProtocolViewController.swift; sourceTree = "<group>"; };
+		4801B3C72B6AC7C700D62337 /* FadeOutTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutTitleView.swift; sourceTree = "<group>"; };
+		481781222B8549F3004AD7D8 /* DutyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyViewController.swift; sourceTree = "<group>"; };
 		482F783E2B670D62003C1E35 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		482F78402B672474003C1E35 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		482F78422B67847F003C1E35 /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,7 @@
 		48681FF12B6575740016960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48681FF72B6576860016960E /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		48DB7F4F2B6897F0001D9851 /* LockoutTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockoutTypeViewController.swift; sourceTree = "<group>"; };
+		48EEF4D02B6B60E500DF4C11 /* HorizontalSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,11 @@
 				48681FE72B6575720016960E /* ViewController.swift */,
 				48681FF72B6576860016960E /* CircleView.swift */,
 				48681FE92B6575720016960E /* Main.storyboard */,
+				481781222B8549F3004AD7D8 /* DutyViewController.swift */,
+				48EEF4D02B6B60E500DF4C11 /* HorizontalSegue.swift */,
+				4801B3C72B6AC7C700D62337 /* FadeOutTitleView.swift */,
+				4801B3C52B696E5900D62337 /* HomebaseProtocolViewController.swift */,
+				4801B3C32B696BFE00D62337 /* CardProtocolViewController.swift */,
 				48DB7F4F2B6897F0001D9851 /* LockoutTypeViewController.swift */,
 				48681FEC2B6575740016960E /* Assets.xcassets */,
 				48681FEE2B6575740016960E /* LaunchScreen.storyboard */,
@@ -156,14 +171,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EEF4D12B6B60E500DF4C11 /* HorizontalSegue.swift in Sources */,
 				48681FF82B6576860016960E /* CircleView.swift in Sources */,
 				482F78412B672474003C1E35 /* HomepageViewController.swift in Sources */,
+				4801B3C42B696BFE00D62337 /* CardProtocolViewController.swift in Sources */,
 				48681FE82B6575720016960E /* ViewController.swift in Sources */,
 				482F78432B67847F003C1E35 /* DirectoryViewController.swift in Sources */,
 				482F783F2B670D62003C1E35 /* TitleViewController.swift in Sources */,
 				482F78452B6784B2003C1E35 /* REMViewController.swift in Sources */,
+				481781232B8549F3004AD7D8 /* DutyViewController.swift in Sources */,
 				48681FE42B6575720016960E /* AppDelegate.swift in Sources */,
+				4801B3C62B696E5900D62337 /* HomebaseProtocolViewController.swift in Sources */,
 				48DB7F502B6897F0001D9851 /* LockoutTypeViewController.swift in Sources */,
+				4801B3C82B6AC7C700D62337 /* FadeOutTitleView.swift in Sources */,
 				48681FE62B6575720016960E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

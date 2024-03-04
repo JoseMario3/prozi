@@ -4,8 +4,12 @@
 <dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
+		<key>Bundle name</key>
+		<string>PROZi</string>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
+		<key>Bundle Display Name</key>
+		<string>PROZi</string>
 		<key>UISceneConfigurations</key>
 		<dict>
 			<key>UIWindowSceneSessionRoleApplication</key>
@@ -17,6 +21,10 @@
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
+					<key>UIUserInterfaceStyle</key>
+					<string>Light</string>
+					<key>CFBundleName</key>
+					<string>PROZi</string>
 				</dict>
 			</array>
 		</dict>

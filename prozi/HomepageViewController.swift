@@ -39,9 +39,11 @@ class HomepageViewController: UIViewController {
     @IBOutlet weak var aTop: UIView!
     @IBOutlet weak var fTop: UIView!
     @IBOutlet weak var fBot: UIView!
+    //@IBOutlet weak var titleView: FadeOutTitleView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       // titleView.clipsToBounds = true;
         fTop.layer.cornerRadius = 20
         fBot.layer.cornerRadius = 20
         aTop.layer.cornerRadius = 20
@@ -131,14 +133,20 @@ class HomepageViewController: UIViewController {
         }
     }
     
-    @IBAction func openDutyForm(_ sender: UIButton) {
-        if let url = URL(string: "https://teams.microsoft.com/l/entity/81fef3a6-72aa-4648-a763-de824aeafb7d/_djb2_msteams_prefix_349649947?context=%7B%22channelId%22%3A%2219%3AhQCsE5z6Ypiv3Nb75b_Byq3wIZm2NQSm9bLetJvgCDY1%40thread.tacv2%22%7D&tenantId=4ccca3b5-71cd-4e6d-974b-4d9beb96c6d6") {
-            UIApplication.shared.open(url)
-        }
-    }
+//    @IBAction func openDutyForm(_ sender: UIButton) {
+//        if let url = URL(string: "https://teams.microsoft.com/l/entity/81fef3a6-72aa-4648-a763-de824aeafb7d/_djb2_msteams_prefix_349649947?context=%7B%22channelId%22%3A%2219%3AhQCsE5z6Ypiv3Nb75b_Byq3wIZm2NQSm9bLetJvgCDY1%40thread.tacv2%22%7D&tenantId=4ccca3b5-71cd-4e6d-974b-4d9beb96c6d6") {
+//            UIApplication.shared.open(url)
+//        }
+//    }
     
-    @IBAction func callRCD(_ sender: UIButton) {
-        if let url = URL(string: "tel://5042557509") {
+//    @IBAction func callRCD(_ sender: UIButton) {
+//        if let url = URL(string: "tel://5042557509") {
+//            UIApplication.shared.open(url)
+//        }
+//    }
+    
+    @IBAction func openMaintenanceForm(_ sender: UIButton) {
+        if let url = URL(string: "https://students.wustl.edu/maintenance-request-form/") {
             UIApplication.shared.open(url)
         }
     }
